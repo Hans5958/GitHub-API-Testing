@@ -1,0 +1,19 @@
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+32848, 	"Event Properties\nEvent Properties"
+32849, 	"Adjust End of Track\nAdjust End of Track"
+32850, 	"Pen\nPen"
+32851, 	"Selector\nSelector"
+32852, 	"Eraser\nEraser"
+32853, 	"Swap Tools\nSwap Tools"
+32855, 	"Quantize Ticks\nQuantize Ticks"
+32856, 	"Quantize Gates\nQuantize Gates"
+32857, 	"Free Hand\nFree Hand"
+32858, 	"Line\nLine"
+32859, 	"Curve 1\nCurve 1"
+32861, 	"Curve 2\nCurve 2"
+32862, 	"Random\nRandom"
+32863, 	"Edit and manage event graphs curves\nCustomize Custom Curves"
+}
+

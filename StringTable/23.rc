@@ -1,0 +1,21 @@
+STRINGTABLE
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+{
+33104, 	"Include Velocity\nInclude Velocity"
+33105, 	"Include Pitch Bend\nInclude Pitch Bend"
+33106, 	"Include Modulation\nInclude Modulation"
+33107, 	"Include Expression\nInclude Expression"
+33108, 	"Include Volume\nInclude Volume"
+33109, 	"Include Panpot\nInclude Panpot"
+33110, 	"Include Hold\nInclude Hold"
+33111, 	"Include LPF Cutoff Frequency\nInclude LPF Cutoff Frequency"
+33112, 	"Include LPF Resonance\nInclude LPF Resonance"
+33113, 	"Include Master Volume\nInclude Master Volume"
+33114, 	"Include System Exclusive\nInclude System Exclusive"
+33115, 	"Include Comments\nInclude Comments"
+33116, 	"Include Variables\nInclude Variables"
+33117, 	"Include Tempo\nInclude Tempo"
+33118, 	"Include Lyrics\nInclude Lyrics"
+33119, 	"Include Cue Points\nInclude Cue Points"
+}
+
