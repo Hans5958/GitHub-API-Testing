@@ -7,7 +7,7 @@ DO_PRINT_1=true
 DESTINATION_FILE="site/changelog.md"
 
 print_line() {
-	echo $1 >> "$(DESTINATION_FILE).tmp"
+	echo $1 >> "$DESTINATION_FILE.tmp"
 }
 
 while read -r line1; do
@@ -37,9 +37,9 @@ done <<< "$(tr -d '\r' < $DESTINATION_FILE)"
 
 IFS=$SAVEIFS
 
-perl -pi -e 's/\n/\r\n/g' "$(DESTINATION_FILE).tmp"
+perl -pi -e 's/\n/\r\n/g' "$DESTINATION_FILE.tmp"
 rm -rf "$DESTINATION_FILE"
-mv "$(DESTINATION_FILE).tmp" "$DESTINATION_FILE"
+mv "$DESTINATION_FILE.tmp" "$DESTINATION_FILE"
 
 # SOURCE=${RAW_SOURCE%$'\n'*}
 # echo $SOURCE
