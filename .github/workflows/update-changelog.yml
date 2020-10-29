@@ -1,4 +1,6 @@
-on: workflow_dispatch
+on: 
+  workflow_dispatch:
+  push:
 
 name: Update Changelog
 
@@ -61,4 +63,7 @@ jobs:
           branch: create-pull-request/changelog
           delete-branch: true
           title: Update changelog
-          body: This updates the changelog with the main repository's version.
+          body: |
+            This updates the changelog with the main repository's version.
+
+            It is recommended to do a rebase merge than other methods.
