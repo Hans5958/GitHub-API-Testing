@@ -16,7 +16,8 @@ jobs:
       - name: Checkout ScratchAddons/danger-review
         run: |
           npm install -g degit@2.8.0
-          npx degit ScratchAddons/danger-review#dev --force
+          npx degit Hans5958/ScratchAddons-danger-review temp-danger --force
+          cp temp-danger/** ./ -r
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
