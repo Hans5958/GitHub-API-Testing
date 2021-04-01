@@ -33,7 +33,7 @@ jobs:
       #     app_id: ${{ secrets.BOT_APP_ID }}
       #     private_key: ${{ secrets.BOT_PRIVATE_KEY }}
       - name: Run Danger JS
-        uses: danger/danger-js@10.6.3
+        run: npx danger ci
         env:
           DANGER_DISABLE_TRANSPILATION: "true"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
