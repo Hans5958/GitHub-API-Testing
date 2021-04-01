@@ -14,7 +14,9 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v1
       - name: Checkout ScratchAddons/danger-review
-        run: npx degit ScratchAddons/danger-review#dev
+        run: 
+          npm install -g degit
+          npx degit ScratchAddons/danger-review#dev
       - name: Cache dependencies
         uses: actions/cache@v2
         with:
