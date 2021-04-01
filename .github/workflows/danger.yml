@@ -15,7 +15,7 @@ jobs:
         uses: actions/setup-node@v1
       - name: Checkout ScratchAddons/danger-review
         run: |
-          npm install -g degit
+          npm install -g degit@2.8.0
           npx degit ScratchAddons/danger-review#dev
       - name: Cache dependencies
         uses: actions/cache@v2
