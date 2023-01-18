@@ -2,11 +2,7 @@ name: Validate addon manifest
 
 on:
   push:
-    paths:
-      - addons/*/addon.json
   pull_request:
-    paths:
-      - addons/*/addon.json
   workflow_dispatch:
 
 jobs:
